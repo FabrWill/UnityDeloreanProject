@@ -1,0 +1,1207 @@
+fileFormatVersion: 2
+guid: c44602329cf4d314c91cd4b4cb5fa8fa
+timeCreated: 1478126907
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Skywalker Sprites_0
+    21300002: Skywalker Sprites_1
+    21300004: Skywalker Sprites_2
+    21300006: Skywalker Sprites_3
+    21300008: Skywalker Sprites_4
+    21300010: Skywalker Sprites_5
+    21300012: Skywalker Sprites_6
+    21300014: Skywalker Sprites_7
+    21300016: Skywalker Sprites_8
+    21300018: Skywalker Sprites_9
+    21300020: Skywalker Sprites_10
+    21300022: Skywalker Sprites_11
+    21300024: Skywalker Sprites_12
+    21300026: Skywalker Sprites_13
+    21300028: Skywalker Sprites_14
+    21300030: Skywalker Sprites_15
+    21300032: Skywalker Sprites_16
+    21300034: Skywalker Sprites_17
+    21300036: Skywalker Sprites_18
+    21300038: Skywalker Sprites_19
+    21300040: Skywalker Sprites_20
+    21300042: Skywalker Sprites_21
+    21300044: Skywalker Sprites_22
+    21300046: Skywalker Sprites_23
+    21300048: Skywalker Sprites_24
+    21300050: Skywalker Sprites_25
+    21300052: Skywalker Sprites_26
+    21300054: Skywalker Sprites_27
+    21300056: Skywalker Sprites_28
+    21300058: Skywalker Sprites_29
+    21300060: Skywalker Sprites_30
+    21300062: Skywalker Sprites_31
+    21300064: Skywalker Sprites_32
+    21300066: Skywalker Sprites_33
+    21300068: Skywalker Sprites_34
+    21300070: Skywalker Sprites_35
+    21300072: Skywalker Sprites_36
+    21300074: Skywalker Sprites_37
+    21300076: Skywalker Sprites_38
+    21300078: Skywalker Sprites_39
+    21300080: Skywalker Sprites_40
+    21300082: Skywalker Sprites_41
+    21300084: Skywalker Sprites_42
+    21300086: Skywalker Sprites_43
+    21300088: Skywalker Sprites_44
+    21300090: Skywalker Sprites_45
+    21300092: Skywalker Sprites_46
+    21300094: Skywalker Sprites_47
+    21300096: Skywalker Sprites_48
+    21300098: Skywalker Sprites_49
+    21300100: Skywalker Sprites_50
+    21300102: Skywalker Sprites_51
+    21300104: Skywalker Sprites_52
+    21300106: Skywalker Sprites_53
+    21300108: Skywalker Sprites_54
+    21300110: Skywalker Sprites_55
+    21300112: Skywalker Sprites_56
+    21300114: Skywalker Sprites_57
+    21300116: Skywalker Sprites_58
+    21300118: Skywalker Sprites_59
+    21300120: Skywalker Sprites_60
+    21300122: Skywalker Sprites_61
+    21300124: Skywalker Sprites_62
+    21300126: Skywalker Sprites_63
+    21300128: Skywalker Sprites_64
+    21300130: Skywalker Sprites_65
+    21300132: Skywalker Sprites_66
+    21300134: Skywalker Sprites_67
+    21300136: Skywalker Sprites_68
+    21300138: Skywalker Sprites_69
+    21300140: Skywalker Sprites_70
+    21300142: Skywalker Sprites_71
+    21300144: Skywalker Sprites_72
+    21300146: Skywalker Sprites_73
+    21300148: Skywalker Sprites_74
+    21300150: Skywalker Sprites_75
+    21300152: Skywalker Sprites_76
+    21300154: Skywalker Sprites_77
+    21300156: Skywalker Sprites_78
+    21300158: Skywalker Sprites_79
+    21300160: Skywalker Sprites_80
+    21300162: Skywalker Sprites_81
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skywalker Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1118
+        width: 65
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1118
+        width: 60
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1117
+        width: 61
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1117
+        width: 61
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1113
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1113
+        width: 68
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1135
+        width: 66
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1133
+        width: 54
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1133
+        width: 53
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1135
+        width: 54
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1133
+        width: 66
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1135
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1135
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 928
+        width: 61
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 928
+        width: 59
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 930
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 927
+        width: 65
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 924
+        width: 69
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 924
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 978
+        width: 56
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 978
+        width: 53
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 978
+        width: 55
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 978
+        width: 67
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 978
+        width: 67
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 978
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 978
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 740
+        width: 57
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 740
+        width: 55
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 740
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 740
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 822
+        width: 65
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 822
+        width: 63
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 822
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 822
+        width: 61
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 822
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 665
+        width: 61
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 666
+        width: 59
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 666
+        width: 58
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 666
+        width: 56
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 665
+        width: 65
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 551
+        width: 55
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 550
+        width: 57
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 551
+        width: 53
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 551
+        width: 54
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 485
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 484
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 484
+        width: 57
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 484
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 480
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 480
+        width: 96
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 480
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 480
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 480
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 361
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 356
+        width: 98
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 356
+        width: 79
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 356
+        width: 83
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 356
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 335
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 335
+        width: 57
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 335
+        width: 55
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 335
+        width: 57
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 330
+        width: 72
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 330
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 330
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 330
+        width: 88
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 330
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 172
+        width: 104
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 168
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 168
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 168
+        width: 83
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 168
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 184
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 184
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 184
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 184
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 183
+        width: 64
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 35
+        width: 60
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 35
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 35
+        width: 60
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 34
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Skywalker Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 35
+        width: 61
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
