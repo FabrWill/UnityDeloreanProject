@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Ovito : MonoBehaviour {
 
+	public GameObject dinossauro;
 	public GameObject gameObj;
-	DinnosaurinDuMal eggBroken;
+	DinnosaurinDuMal dino;
 	private TextMesh txt;
 
 	// Use this for initialization
 	void Start () {
-		eggBroken = gameObject.GetComponent<DinnosaurinDuMal> ();
+		dino = dinossauro.GetComponent<DinnosaurinDuMal> ();
 		txt = gameObj.GetComponent<TextMesh> ();
 	}
 	
@@ -19,11 +20,14 @@ public class Ovito : MonoBehaviour {
 		
 	}
 
-	void OnColliderStay2D (){
+	void OnTriggerStay2D (Collider2D other){
 		if (Input.GetKeyDown (KeyCode.Z)) {
+			Debug.Log ("action");
 			txt.text = "Crack";
+			Debug.Log ("txt");
 			txt.color = Color.yellow;
-			eggBroken.StartCoroutine ("eggWasBroken");
+			dino.chngEgg (true);
+			Debug.Log ("coroutine");
 		}
 	}
 }

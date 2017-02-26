@@ -9,14 +9,14 @@ public class DinnosaurinDuMal : MonoBehaviour {
 	public float speed;//velocidade em cada passo
 	public float attackDistance; //traduza
 
-	public GameObject gameObj;
+	public GameObject DinossaurTxt;
+	public GameObject CharactScript;
 	public Transform target;
 	public Transform jumpVerify;
 
 	private TextMesh txt;
 
 	Animator anim;
-	Animation animat;
 	CharacterControl Cntrl;
 	Vector3 location;
 
@@ -24,20 +24,19 @@ public class DinnosaurinDuMal : MonoBehaviour {
 	float Distance;
 	bool canMove;
 	bool jumpy;
+	public bool eggBrok;
 
 
 
 	// Use this for initialization
 	void Start () {
-		Cntrl = gameObject.GetComponent<CharacterControl> ();
-		txt = gameObj.GetComponent<TextMesh> ();
+		Cntrl = CharactScript.GetComponent<CharacterControl> ();
+		anim = gameObject.GetComponent<Animator> ();
+		txt = DinossaurTxt.GetComponent<TextMesh> ();
 		canMove = false;
+		eggBrok = false;
 	}
-
-	void OnBecameInvisible (){
-		txt.text = "";
-	}
-
+		
 	/// <summary>
 	/// breve resumo do que deve acontecer:
 	/// distance vai calcular a distancia do personagem ao dinossauro
@@ -48,6 +47,14 @@ public class DinnosaurinDuMal : MonoBehaviour {
 	/// melhores elaborões serão necessárias. 
 	/// </summary>
 	void Update () {
+
+		Debug.Log (Distance);
+
+		if (eggBrok) {
+			StartCoroutine (eggWasBroken ());
+			eggBrok = false;
+		}
+
 		passo = speed * Time.deltaTime;
 		Distance = Vector3.Distance (target.position, transform.position); //codigo que descobre a distancia entre dois objetos
 		//transform.position = Vector3.MoveTowards(transform.position, target, Passo);
@@ -69,6 +76,9 @@ public class DinnosaurinDuMal : MonoBehaviour {
 			
 	}
 		
+	void OnBecameInvisible (){
+		txt.text = "";
+	}
 
 	//serve pra descobrir onde o target está, e mudar a posição do dinossauro. 
 	void MonsterLocationUpdate () {
@@ -91,14 +101,16 @@ public class DinnosaurinDuMal : MonoBehaviour {
 			GetComponent<Rigidbody2D> ().AddForce (transform.up * 300f);
 		}
 	}
-
+		
 	//conexão entre o ovo e o dinossauro
-	public IEnumerator eggWasBroken(){
+	public void chngEgg(bool nha){
+		eggBrok = nha;
+	}
+
+	IEnumerator eggWasBroken(){
 		anim.SetBool ("Awakening", true);
 		yield return new WaitForSeconds (0.5f);
-		if (!animat.IsPlaying ("Awake")) {
-			anim.SetBool ("Awakening", false);
-		}
+		anim.SetBool ("Awakening", false);
 		canMove = true;
 	}
 
