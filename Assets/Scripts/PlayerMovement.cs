@@ -5,11 +5,11 @@ public class PlayerMovement : MonoBehaviour {
 
 	private Animator Anim;
 	private Vector2 Move;
-	private CharacterController Control;
+	private CharacterControl Control;
 	public bool CanWalk;
 
 	void Start () {
-		Control = gameObject.GetComponent<CharacterController>();
+		Control = gameObject.GetComponent<CharacterControl>();
 		Anim = gameObject.GetComponent<Animator> ();
 		CanWalk = true;
 	}

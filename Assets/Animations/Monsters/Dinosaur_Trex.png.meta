@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 2a92b9f8e8ebe5243aed202955e9cfa9
+timeCreated: 1487720334
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dinosaur_Trex_0
+    21300002: Dinosaur_Trex_1
+    21300004: Dinosaur_Trex_2
+    21300006: Dinosaur_Trex_3
+    21300008: Dinosaur_Trex_4
+    21300010: Dinosaur_Trex_5
+    21300012: Dinosaur_Trex_6
+    21300014: Dinosaur_Trex_7
+    21300016: Dinosaur_Trex_8
+    21300018: Dinosaur_Trex_9
+    21300020: Dinosaur_Trex_10
+    21300022: Dinosaur_Trex_11
+    21300024: Dinosaur_Trex_12
+    21300026: Dinosaur_Trex_13
+    21300028: Dinosaur_Trex_14
+    21300030: Dinosaur_Trex_15
+    21300032: Dinosaur_Trex_16
+    21300034: Dinosaur_Trex_17
+    21300036: Dinosaur_Trex_18
+    21300038: Dinosaur_Trex_19
+    21300040: Dinosaur_Trex_20
+    21300042: Dinosaur_Trex_21
+    21300044: Dinosaur_Trex_22
+    21300046: Dinosaur_Trex_23
+    21300048: Dinosaur_Trex_24
+    21300050: Dinosaur_Trex_25
+    21300052: Dinosaur_Trex_26
+    21300054: Dinosaur_Trex_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dinosaur_Trex_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 868
+        width: 263
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 870
+        width: 264
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 872
+        width: 263
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 820
+        width: 222
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_4
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 816
+        width: 195
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 734
+        width: 262
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 732
+        width: 262
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_7
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 740
+        width: 264
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_8
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 648
+        width: 213
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_9
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 716
+        width: 195
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 580
+        width: 229
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_11
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 570
+        width: 227
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 590
+        width: 230
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_13
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 484
+        width: 227
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_14
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 596
+        width: 195
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 420
+        width: 227
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 416
+        width: 227
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_17
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 430
+        width: 227
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_18
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 477
+        width: 195
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 254
+        width: 230
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 258
+        width: 187
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_21
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 290
+        width: 213
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_22
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 252
+        width: 159
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_23
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 346
+        width: 197
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_24
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 132
+        width: 215
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_25
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 244
+        width: 197
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 82
+        width: 217
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dinosaur_Trex_27
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 138
+        width: 206
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
