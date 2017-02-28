@@ -12,29 +12,35 @@ public class DinnosaurinDuMal : MonoBehaviour {
 	public GameObject DinossaurTxt;
 	public GameObject CharactScript;
 	public Transform target;
-	public Transform jumpVerify;
+	public Transform jumpVerify1;
+	public Transform jumpVerify2;
 
 	private TextMesh txt;
 
-	Animator anim;
+	PlayerMovement PlayMov;
 	CharacterControl Cntrl;
+	Animator anim;
 	Vector3 location;
 
 	float passo;
 	float Distance;
 	bool canMove;
-	bool jumpy;
+	bool jumpy1;
+	bool jumpy2;
+	bool canAll;
 	public bool eggBrok;
 
 
 
 	// Use this for initialization
 	void Start () {
+		PlayMov = CharactScript.GetComponent<PlayerMovement> ();
 		Cntrl = CharactScript.GetComponent<CharacterControl> ();
 		anim = gameObject.GetComponent<Animator> ();
 		txt = DinossaurTxt.GetComponent<TextMesh> ();
 		canMove = false;
 		eggBrok = false;
+		canAll = false;
 	}
 		
 	/// <summary>
@@ -53,25 +59,26 @@ public class DinnosaurinDuMal : MonoBehaviour {
 		if (eggBrok) {
 			StartCoroutine (eggWasBroken ());
 			eggBrok = false;
+			canAll = true;
 		}
 
 		passo = speed * Time.deltaTime;
 		Distance = Vector3.Distance (target.position, transform.position); //codigo que descobre a distancia entre dois objetos
 		//transform.position = Vector3.MoveTowards(transform.position, target, Passo);
-
-		if (canMove) {
-			if (Distance < Vision) {
-				MonsterLocationUpdate ();
-			} else {
-				txt.text = "?";
-				txt.color = Color.yellow;
-				anim.SetBool ("IsWalking", false);
-
+		if (canAll) {
+			if (canMove) {
+				if (Distance < Vision) {
+					MonsterLocationUpdate ();
+				} else {
+					txt.text = "?";
+					txt.color = Color.yellow;
+					anim.SetBool ("IsWalking", false);
+				}
 			}
-		}
 
-		if (Distance < attackDistance) {
-			Attack ();
+			if (Distance < attackDistance) {
+				StartCoroutine (Attack ());
+			}
 		}
 			
 	}
@@ -88,17 +95,22 @@ public class DinnosaurinDuMal : MonoBehaviour {
 		anim.SetBool("IsWalking",true);
 
 		//verifica se ele esta encostando em algum objeto do chão para pular
-		jumpy = Physics2D.Linecast (transform.position, jumpVerify.position, 1 << LayerMask.NameToLayer ("Ground"));//verificar se esta em algum lugar que deve pular
+		jumpy1 = Physics2D.Linecast (transform.position, jumpVerify1.position, 1 << LayerMask.NameToLayer ("Ground"));//verificar se esta em algum lugar que deve pular
+		jumpy2 = Physics2D.Linecast (transform.position, jumpVerify2.position, 1 << LayerMask.NameToLayer ("Ground"));
 
-		Quaternion Rotation = Quaternion.LookRotation(target.position - transform.position);//quartenion vai descobrir aonde o objeto está no espaço. 
-		transform.rotation = Rotation;//muda o lado do objeto
+		//Quaternion Rotation = Quaternion.LookRotation(target.position - transform.position);//quartenion vai descobrir aonde o objeto está no espaço. 
+		//transform.rotation = Rotation;//muda o lado do objeto
+		//Debug.Log(transform.rotation);
 
 		//move realmente o objeto
 		transform.position = Vector3.MoveTowards (transform.position, target.position, passo);
 
 		//pula se puder pular
-		if (jumpy) {
-			GetComponent<Rigidbody2D> ().AddForce (transform.up * 300f);
+		if (jumpy1) {
+			gameObject.GetComponent<Rigidbody2D> ().AddForce (transform.up * 800f);
+		}
+		if (jumpy2) {
+			gameObject.GetComponent<Rigidbody2D> ().AddForce (transform.up * 800f);
 		}
 	}
 		
@@ -109,16 +121,24 @@ public class DinnosaurinDuMal : MonoBehaviour {
 
 	IEnumerator eggWasBroken(){
 		anim.SetBool ("Awakening", true);
-		yield return new WaitForSeconds (0.5f);
+		txt.text = "-.-";
+		txt.color = Color.grey;
+		yield return new WaitForSeconds (1.3f);
 		anim.SetBool ("Awakening", false);
+		txt.text = "'-'";
+		txt.color = Color.magenta;
+		yield return new WaitForSeconds (1.3f);
 		canMove = true;
 	}
 
-	void Attack (){
-		anim.SetBool ("IsWalking", false);
-		anim.SetTrigger ("Attacking");
-		Cntrl.DIE ();
+	IEnumerator Attack (){
 		canMove = false;
+		anim.SetBool ("IsWalking", false);
+		yield return new WaitForSeconds (0.3f);
+		PlayMov.SetMovement (false);
+		anim.SetTrigger ("Attacking");
+		yield return new WaitForSeconds (0.8f);
+		Cntrl.StartCoroutine(Cntrl.DIE ());
 
 	}
 }

@@ -20,14 +20,18 @@ public class Ovito : MonoBehaviour {
 		
 	}
 
-	void OnTriggerStay2D (Collider2D other){
+	IEnumerator OnTriggerStay2D (Collider2D other){
 		if (Input.GetKeyDown (KeyCode.Z)) {
+			yield return new WaitForSeconds (0.3f);
 			Debug.Log ("action");
 			txt.text = "Crack";
 			Debug.Log ("txt");
 			txt.color = Color.yellow;
+			yield return new WaitForSeconds (0.2f);
+			Destroy (gameObject);
 			dino.chngEgg (true);
 			Debug.Log ("coroutine");
+			Destroy (this);
 		}
 	}
 }

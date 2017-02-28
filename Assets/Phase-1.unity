@@ -255,7 +255,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 90071682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.53, y: 0.05, z: 0}
+  m_LocalPosition: {x: -15.04, y: 1.92, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 253605369}
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GroundVerify: {fileID: 293894315}
-  FadeTexture: {fileID: 2800000, guid: d2a5655c3c0b2c245a03b1724f9f4c42, type: 3}
+  FadeTexture: {fileID: 2800000, guid: 0d720c09fdbb9944d9715bf916074da5, type: 3}
   RunSpeed: 10
   JumpForce: 400
   CanJump: 0
@@ -323,9 +323,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.0045063496, y: 0.0067596436}
+  m_Offset: {x: -0.00000047683716, y: 0.010028541}
   serializedVersion: 2
-  m_Size: {x: 0.6229616, y: 1.1364809}
+  m_Size: {x: 0.6199142, y: 1.1098857}
 --- !u!1 &253605364
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,11 +382,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0
+  far clip plane: 2000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.7034907
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -407,7 +407,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 253605364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.37, y: 1.48, z: -10}
+  m_LocalPosition: {x: 3.77, y: 1.7, z: -10}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 90071685}
@@ -482,9 +482,9 @@ GameObject:
   m_Component:
   - component: {fileID: 464046582}
   m_Layer: 0
-  m_Name: jumpVerify
+  m_Name: jumpVerify1
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -495,8 +495,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 464046581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0.23, z: 0}
-  m_LocalScale: {x: 2.2, y: 0.2, z: 1}
+  m_LocalPosition: {x: -1.028, y: -0.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1402637195}
   m_RootOrder: 0
@@ -525,8 +525,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 647990809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.86, y: 2.12, z: 0}
-  m_LocalScale: {x: 18.85505, y: 6.3657002, z: 1}
+  m_LocalPosition: {x: 4.01, y: 1.67, z: 0}
+  m_LocalScale: {x: 19.43697, y: 6.8589096, z: 1}
   m_Children: []
   m_Father: {fileID: 90071685}
   m_RootOrder: 1
@@ -569,6 +569,34 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1 &911251128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 911251129}
+  m_Layer: 0
+  m_Name: jumpVerify2
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &911251129
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 911251128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.659, y: -0.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1402637195}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378080509
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,7 +640,9 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
-  - {x: -3.8335035, y: 0.77939296}
+  - {x: -16.54271, y: -0.3961223}
+  - {x: -7.6269307, y: -0.3307517}
+  - {x: -5.7664394, y: -0.27266458}
   - {x: -3.7684808, y: -0.5664813}
   - {x: -3.5938203, y: -0.62580967}
   - {x: -3.4751594, y: -0.7617431}
@@ -620,10 +650,9 @@ EdgeCollider2D:
   - {x: -2.9401977, y: -1.1643229}
   - {x: -2.7261634, y: -1.2713933}
   - {x: -2.5751724, y: -1.4481615}
-  - {x: -2.5187001, y: -1.6719109}
-  - {x: -2.5314555, y: -1.8655535}
-  - {x: -2.583731, y: -2.0523906}
-  - {x: -2.5926971, y: -2.5964189}
+  - {x: -2.5023131, y: -1.68362}
+  - {x: -2.494819, y: -2.4688854}
+  - {x: -1.4321033, y: -2.4616978}
   - {x: 5.0226507, y: -2.5252345}
 --- !u!212 &1378080512
 SpriteRenderer:
@@ -927,6 +956,7 @@ Transform:
   m_Children:
   - {fileID: 464046582}
   - {fileID: 1438583069}
+  - {fileID: 911251129}
   m_Father: {fileID: 308901321}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -993,13 +1023,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6691edb4274d1ca43b135c1ba93f5016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Vision: 25
-  speed: 3
-  attackDistance: 2
+  Vision: 20
+  speed: 8
+  attackDistance: 7
   DinossaurTxt: {fileID: 1438583068}
   CharactScript: {fileID: 90071682}
   target: {fileID: 90071685}
-  jumpVerify: {fileID: 464046582}
+  jumpVerify1: {fileID: 464046582}
+  jumpVerify2: {fileID: 911251129}
   eggBrok: 0
 --- !u!60 &1402637199
 PolygonCollider2D:
@@ -1052,7 +1083,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1438583068
 GameObject:
   m_ObjectHideFlags: 0

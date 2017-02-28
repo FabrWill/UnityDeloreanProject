@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 785ce7c015d94de4dbd274e454902455
-timeCreated: 1487858720
+guid: 3c7292e7395d8304da057e2f8f04f2b9
+timeCreated: 1488248939
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: 10870487-pierre-tombale_0
-    21300002: 10870487-pierre-tombale_6
-    21300004: 10870487-pierre-tombale_14
-    21300006: 10870487-pierre-tombale_25
-    21300008: 10870487-pierre-tombale_26
+    21300002: 10870487-pierre-tombale_1
+    21300004: 10870487-pierre-tombale_2
+    21300006: 10870487-pierre-tombale_8
+    21300008: 10870487-pierre-tombale_9
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -78,62 +78,62 @@ TextureImporter:
       name: 10870487-pierre-tombale_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 156
-        width: 444
-        height: 633
+        x: 3
+        y: 38
+        width: 108
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 10870487-pierre-tombale_6
+      name: 10870487-pierre-tombale_1
       rect:
         serializedVersion: 2
-        x: 489
-        y: 143
-        width: 456
-        height: 581
+        x: 117
+        y: 35
+        width: 103
+        height: 131
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 10870487-pierre-tombale_14
+      name: 10870487-pierre-tombale_2
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 103
-        width: 464
-        height: 532
+        x: 257
+        y: 24
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 10870487-pierre-tombale_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 8
+        width: 104
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: 10870487-pierre-tombale_25
+      name: 10870487-pierre-tombale_9
       rect:
         serializedVersion: 2
-        x: 1572
-        y: 41
-        width: 554
-        height: 527
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: 10870487-pierre-tombale_26
-      rect:
-        serializedVersion: 2
-        x: 2173
-        y: 41
-        width: 420
-        height: 423
+        x: 505
+        y: 8
+        width: 116
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
