@@ -122,7 +122,7 @@ public class DinnosaurinDuMal : MonoBehaviour {
 	IEnumerator eggWasBroken(){
 		anim.SetBool ("Awakening", true);
 		txt.text = "-.-";
-		txt.color = Color.grey;
+		txt.color = Color.cyan;
 		yield return new WaitForSeconds (1.3f);
 		anim.SetBool ("Awakening", false);
 		txt.text = "'-'";
