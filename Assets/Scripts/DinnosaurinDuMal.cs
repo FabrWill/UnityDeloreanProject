@@ -48,9 +48,8 @@ public class DinnosaurinDuMal : MonoBehaviour {
 
 	void Update () {
 
-		Debug.Log (Distance);
-
 		if (eggBrok) { // descobre se o usuario quebrou o ovo e ativa o dinossauro
+			Debug.Log("egg brok");
 			StartCoroutine (eggWasBroken ());
 			eggBrok = false;
 			canAll = true;
@@ -62,41 +61,48 @@ public class DinnosaurinDuMal : MonoBehaviour {
 			if (canMove) {
 				if (Distance < Vision) {// se esta na visão o monstro se movimenta, se nao muda a forma como ele fica
 					MonsterLocationUpdate ();
+					MonsterSideUpdate ();
 				} else {
 					txt.text = "?";
 					txt.color = Color.yellow;
 					anim.SetBool ("IsWalking", false);
 				}
+
+				if (Distance < attackDistance) {//ataca
+					StartCoroutine (Attack ());
+				}
 			}
 
-			if (Distance < attackDistance) {//ataca
-				StartCoroutine (Attack ());
-			}
 		}
 			
+	}
+
+	void OnBecameVisible (){
+		txt.text = "";
+		canAll = true;
 	}
 		
 	void OnBecameInvisible (){ // função que para a execução do objeto
 		txt.text = "";
-		anim.SetBool ("Invisible", true);
 		canAll = false;
 	}
 
 	//serve pra descobrir onde o target está, e mudar a posição do dinossauro. 
 	void MonsterLocationUpdate () {
+
+		Debug.Log ("posicao dino " + transform.position.x + " posicao mlk" + target.position.x); 
+
 		txt.text = "!";
 		txt.color = Color.red;
 
 		anim.SetBool("IsWalking",true);
 
+		//move realmente o objeto
+		transform.position = Vector3.MoveTowards (transform.position, target.position, passo);
+
 		//verifica se ele esta encostando em algum objeto do tipo chão para pular
 		jumpy1 = Physics2D.Linecast (transform.position, jumpVerify1.position, 1 << LayerMask.NameToLayer ("Ground"));//verificar se esta em algum lugar que deve pular
 		jumpy2 = Physics2D.Linecast (transform.position, jumpVerify2.position, 1 << LayerMask.NameToLayer ("Ground"));
-
-
-
-		//move realmente o objeto
-		transform.position = Vector3.MoveTowards (transform.position, target.position, passo);
 
 		//pula se puder pular
 		if (jumpy1) {
@@ -105,6 +111,17 @@ public class DinnosaurinDuMal : MonoBehaviour {
 		if (jumpy2) {
 			gameObject.GetComponent<Rigidbody2D> ().AddForce (transform.up * 800f);
 		}
+			
+	}
+
+	void MonsterSideUpdate(){
+		if (target.position.x < transform.position.x){
+			transform.eulerAngles = new Vector2 (0, 0);
+		}
+		if (target.position.x > transform.position.x){
+			transform.eulerAngles = new Vector2 (0, 180);
+		}
+
 	}
 		
 	//conexão entre o ovo e o dinossauro, para modificação do valor de eggBrok

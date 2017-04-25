@@ -8,8 +8,8 @@ public class monsterIA : MonoBehaviour {
 	public float attackDistance;
 	public float speed;
 
-	public Transform posTarget1;// posições de movimentação padrão
-	public Transform posTarget2;
+	public Vector3 posTarget1;// posições de movimentação padrão
+	public Vector3 posTarget2;
 	public Transform target;
 	public Transform jumpVerify;
 	public GameObject textObj;
@@ -58,15 +58,15 @@ public class monsterIA : MonoBehaviour {
 				MonsterMove ();
 			} else {
 				if (local == 1) {
-					transform.position = Vector3.MoveTowards (transform.position, posTarget1.position, passo);
+					transform.position = Vector3.MoveTowards (transform.position, posTarget1, passo);
 				}
 				if (local == 2) {
-					transform.position = Vector3.MoveTowards (transform.position, posTarget2.position, passo);
+					transform.position = Vector3.MoveTowards (transform.position, posTarget2, passo);
 				}
-				if (transform.position == posTarget1.position) {
+				if (transform.position == posTarget1) {
 					local = 2;
 				}
-				if (transform.position == posTarget2.position) {
+				if (transform.position == posTarget2) {
 					local = 1;
 				}
 			}
@@ -100,13 +100,14 @@ public class monsterIA : MonoBehaviour {
 		txt.text = "?";
 		txt.color = Color.yellow;
 		yield return new WaitForSeconds (1f);
-		canMove = true;
+		canMove = false;
 	}
 
 	//gira o monstro
 	void MonsterSideUpdate () {
-		Quaternion Rotation = Quaternion.LookRotation(target.position - transform.position);//quartenion vai descobrir aonde o objeto está no espaço. 
+		Quaternion Rotation = Quaternion.LookRotation(target.position + transform.position);//quartenion vai descobrir aonde o objeto está no espaço. 
 		transform.rotation = Rotation;//muda o lado do objeto
+
 	}
 
 	IEnumerator Attack (){//animações e interações ao atacar
@@ -119,3 +120,4 @@ public class monsterIA : MonoBehaviour {
 		cntrl.StartCoroutine(cntrl.DIE ()); //inicia o personagem na morte
 
 	}
+}

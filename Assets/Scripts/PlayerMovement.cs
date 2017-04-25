@@ -3,10 +3,13 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
+	//Classe utilizada para controlar as animações do personagem quando & enquanto ele andar
+
+	//import das class
 	private Animator Anim;
 	private Vector2 Move;
-	private CharacterControl Control;
-	public bool CanWalk;
+	private CharacterControl Control; //classe de movimento do personagem
+	public bool CanWalk;//controle de pulo do personagem
 
 	void Start () {
 		Control = gameObject.GetComponent<CharacterControl>();
@@ -14,17 +17,17 @@ public class PlayerMovement : MonoBehaviour {
 		CanWalk = true;
 	}
 
-	public void CanTrue(){
-		CanWalk = true;
+	// função primitiva de mudança de valor da variavel Can Walk - "mudado na versão 0.0.0.0.9 para melhor utilização de P.O.O"
+	public void setCan(bool CanWalk){
+		this.CanWalk = CanWalk;
 	}
 
-	public void CanFalse(){
-		CanWalk = false;
-	}
 
+	// vai mudando a animação conforme necessário
 	void Update () {
 
-		Move = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
+		//vê qual o movimento do personagem assim como na classe principal
+		Move = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical")); 
 
 		if (Move != Vector2.zero && CanWalk) {
 			Anim.SetBool ("Walk", true);

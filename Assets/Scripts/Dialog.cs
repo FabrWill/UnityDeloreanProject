@@ -13,7 +13,7 @@ public class Dialog : MonoBehaviour {
 	bool jaEscreveu = false;//booleano que vê se o sistema ja mostrou oque queria
 	bool dentroDoDialogo;//booleano que diz se o personagem esta dentro de um dialogo
 	public string Texto;//texto dos dialogos
-	string[] arrayDialogo;
+	string[] arrayDialogo;//variavel que armazena os dialogos q no inicio do programa serão divididos me partes
 
 	int ndialogo;//só pro while funcionar mesmo
 
@@ -29,17 +29,17 @@ public class Dialog : MonoBehaviour {
 
 
 	//ativa o modo fade se for o caso.
-	void OnTriggerEnter2D (Collider2D other){
-		Debug.Log ("entered in trigger");
+	IEnumerator OnTriggerEnter2D (Collider2D other){
 		if (Fade) {
 			textmesh.text = Texto;
+			yield return new WaitForSeconds (1);
 		}
 	}
 
-	void OnTriggerExit2D (Collider2D other){
-		Debug.Log ("exit on trigger");
+	IEnumerator OnTriggerExit2D (Collider2D other){
 		if (Fade){
 			textmesh.text = "";
+			yield return new WaitForSeconds (1);
 		}
 	}
 
@@ -47,7 +47,7 @@ public class Dialog : MonoBehaviour {
 		if(dialog){
 			if (dentroDoDialogo==false){
 				if (Input.GetKeyDown (KeyCode.Z)) {
-					Controle.CanFalse();
+					Controle.setCan(false);
 					GameObject.Find ("player").GetComponent<Animator> ().SetBool("Walk", false);
 					printing ();
 					dentroDoDialogo = true;
@@ -59,7 +59,7 @@ public class Dialog : MonoBehaviour {
 				if (Input.GetKeyDown (KeyCode.Z)) {
 					if (arrayDialogo.Length < ndialogo) {
 
-						Controle.CanTrue ();
+						Controle.setCan (true);
 						textmesh.text = "";
 						dentroDoDialogo = false;
 					} else {
