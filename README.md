@@ -5,5 +5,7 @@ A time travel game of time traveller
 
 # Patch notes
 
-  Ultima versão postada com diversos bugs nas animações, vou trabalhar pra arrumar isso logo =P
-  
+  90% de scripts gerais terminados, faltando apenas terminar HUD, & Banco de Dados - pretendo fazer assim q eu tirai mais que 6 na prova de física
+  Dinossaurin lindaum.
+  monster script ainda não testado e nem dialogo, serão testados assim que possível.
+  ^^
